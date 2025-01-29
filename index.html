@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Tường Mùa Xuân Ất Tỵ</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #f6d365, #fda085);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .header-container img {
+            width: 120px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #ffedd5;
+            padding: 10px 0;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            margin: 5px 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff6f61;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            color: #f76c6c;
+            border-bottom: 2px solid #ffdd94;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        section p {
+            line-height: 1.8;
+        }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .image-gallery img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+
+            nav a {
+                font-size: 1em;
+            }
+
+            main {
+                padding: 10px;
+            }
+
+            section h2 {
+                font-size: 1.5em;
+            }
+
+            .header-container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .header-container img {
+                margin-bottom: 15px;
+            }
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #ffedd5;
+            color: #555;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ff6f61;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="ran.png" alt="Hình ảnh rắn" />
+            <div>
+                <h1>Báo Tường Mùa Xuân Ất Tỵ</h1>
+                <p>Chào mừng mùa xuân mới với niềm vui và hy vọng!</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#introduction">Giới thiệu</a>
+        <a href="#poetry">Thơ Xuân</a>
+        <a href="#story">Truyện Ngắn</a>
+        <a href="#gallery">Hình Ảnh</a>
+        <a href="#customs">Phong Tục Tết</a>
+        <a href="#contact">Liên Hệ</a>
+    </nav>
+
+    <main>
+        <section id="introduction">
+            <h2>Lời Ngỏ</h2>
+            <p>Thân gửi bạn đọc,</p>
+            <p>Mùa xuân Ất Tỵ đang gõ cửa từng nhà, mang theo hơi thở của đất trời, sự sum vầy và niềm hy vọng. Báo tường này được thực hiện với mong muốn lưu giữ những khoảnh khắc đẹp, chia sẻ những giá trị truyền thống, và gửi đến mọi người những lời chúc tốt đẹp nhất trong năm mới.</p>
+        </section>
+
+        <section id="poetry">
+            <h2>Thơ Xuân</h2>
+            <p>"Xuân về trên ngõ, lá cười xanh<br>
+            Gió hát dịu dàng khúc hoan ca<br>
+            Muôn hoa khoe sắc, lòng an yên<br>
+            Chào đón xuân sang với chan hòa."</p>
+        </section>
+
+        <section id="story">
+            <h2>Truyện Ngắn: Bức Thư Mùa Xuân</h2>
+            <p>Trong những ngày cuối năm, An ngồi trước bàn, cầm bút viết lá thư đầu tiên cho cha mình - người đã xa nhà từ rất lâu. Lá thư không chỉ là những dòng chữ mà còn chứa đựng sự nhớ nhung, lòng kính yêu và hy vọng được đoàn tụ. Mùa xuân năm ấy, khi cha An bất ngờ trở về, họ đã cùng nhau gói bánh chưng, làm nên một mùa Tết ấm áp không bao giờ quên.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Hình Ảnh Mùa Xuân</h2>
+            <div class="image-gallery">
+                <img src="hoa-tra-vinh.jpg" alt="Hoa mai" title="chợ hoa tại Trà Vinh">
+                
+                <img src="trai xuan.jpg" alt="Trại xuân" title="Trại xuân tại trường dân tộc nội trú huyện Trà Cú">
+
+                <img src="bna_ran-2.jpg" alt="Hình ảnh rắn mùa xuân" title="Biểu tượng con rắn tại thành phố Trà Vinh">
+            </div>
+        </section>
+
+        <section id="customs">
+            <h2>Phong Tục Tết</h2>
+            <p>Tết Nguyên Đán không chỉ là dịp để sum họp mà còn là thời điểm để thực hiện những phong tục truyền thống. Một số phong tục tiêu biểu gồm:</p>
+            <ul>
+                <li><b>Gói Bánh Chưng, Bánh Tét:</b> Một hoạt động mang ý nghĩa tri ân tổ tiên và gắn kết gia đình.</li>
+                <li><b>Chúc Tết và Mừng Tuổi:</b> Lời chúc đầu năm với bao lì xì đỏ tượng trưng cho tài lộc.</li>
+                <li><b>Thăm Mộ Tổ Tiên:</b> Một nét đẹp văn hóa để tưởng nhớ và bày tỏ lòng thành kính.</li>
+                <li><b>Đi Chùa Cầu An:</b> Mong một năm mới bình an và hạnh phúc.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Liên Hệ</h2>
+            <p>Để góp ý hoặc chia sẻ thêm nội dung, vui lòng liên hệ qua email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=thesecondtruong@gmail.com&su=góp+ý+trang+web+báo+tường+xuân&body=Tôi+muốn+góp+ý+về">thesecondtruong@gmail.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Báo Tường Mùa Xuân. Thiết kế đơn giản và hiện đại bởi nhóm Chill People.</p>
+    </footer>
+</body>
+</html>
